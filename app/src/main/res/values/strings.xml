@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Coinly</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="sign_in">Войти</string>
+    <string name="no_account">Нет аккаунта? Зарегистрироваться</string>
+    <string name="register">Регистрация</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="already_have_account">Уже есть аккаунт?</string>
+    <string name="chart_icon">Chart Icon</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ru.coinly.coinly.ui.HomeFragment"
+        android:label="Главная" />
+
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="ru.coinly.coinly.ui.StatsFragment"
+        android:label="Статистика" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="ru.coinly.coinly.ui.HistoryFragment"
+        android:label="История" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.coinly.coinly.ui.SettingsFragment"
+        android:label="Настройки" />
+    <fragment
+        android:id="@+id/addTransactionFragment"
+        android:name="ru.coinly.coinly.ui.AddTransactionFragment"
+        android:label="Добавить операцию" />
+
+
+</navigation>
